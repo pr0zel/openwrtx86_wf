@@ -12,5 +12,5 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-sed -i 's/CONFIG_CPU_FREQ_DEFAULT_GOV_ONDEMAND/CONFIG_CPU_FREQ_DEFAULT_GOV_SCHEDUTIL/g' target/linux/x86/64/config-5.15
-sed -i '/CONFIG_CPU_FREQ_GOV_ONDEMAND/a\CONFIG_CPU_FREQ_GOV_SCHEDUTIL=y' target/linux/x86/64/config-5.15
+#sed -i 's/CONFIG_CPU_FREQ_DEFAULT_GOV_ONDEMAND/CONFIG_CPU_FREQ_DEFAULT_GOV_SCHEDUTIL/g' target/linux/x86/64/config-5.15
+#sed -i '/CONFIG_CPU_FREQ_GOV_ONDEMAND/a\CONFIG_CPU_FREQ_GOV_SCHEDUTIL=y' target/linux/x86/64/config-5.15
